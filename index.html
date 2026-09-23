@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Weeks Financial Intelligence</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5a5a5a;
+    --accent: #2c5f6f;
+    --rule: #e0e0e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1a1a1a; --fg: #f0f0f0; --muted: #a8a8a8; --accent: #7fb3c4; --rule: #3a3a3a; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 44rem; margin-inline: auto; padding: 4rem 1.5rem; }
+  h1 { font-size: 1.9rem; margin-block-end: 0.25rem; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); font-size: 1.05rem; margin-block-start: 0; }
+  hr { border: 0; border-block-start: 1px solid var(--rule); margin-block: 2.5rem; }
+  h2 { font-size: 1.15rem; margin-block-end: 0.5rem; color: var(--accent); }
+  p { margin-block: 0.75rem; }
+  ul { padding-inline-start: 1.25rem; }
+  li { margin-block: 0.4rem; }
+  .links { margin-block-start: 2rem; }
+  .links a { color: var(--accent); margin-inline-end: 1.5rem; }
+  footer { margin-block-start: 3rem; padding-block-start: 1.5rem; border-block-start: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Weeks Financial Intelligence</h1>
+  <p class="sub">Internal financial reporting for Weeks' Family Funeral Homes</p>
+
+  <hr>
+
+  <h2>About this application</h2>
+  <p>Weeks Financial Intelligence is private, internal-use software operated by
+  Weeks' Family Funeral Homes. It reads financial data from the company's own
+  QuickBooks Online account and presents it to authorized company management
+  through Microsoft 365.</p>
+
+  <p>This application is not offered to the public, is not available for
+  download or purchase, and has no customers other than Weeks' Family Funeral
+  Homes itself.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Retrieves financial reports — profit and loss, balance sheet, receivables and payables aging, vendor spend, and account transaction detail.</li>
+    <li>Presents those reports to authorized company managers for operational review and internal auditing.</li>
+    <li>Operates on a strictly read-only basis.</li>
+  </ul>
+
+  <h2>What it does not do</h2>
+  <p>The application cannot create, modify, delete, or post accounting records.
+  It holds no write permissions of any kind. It does not transmit financial data
+  to any third party, and it does not sell, share, or disclose company
+  information outside the organization.</p>
+
+  <div class="links">
+    <a href="eula.html">End-User License Agreement</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </div>
+
+  <footer>
+    Weeks' Family Funeral Homes &middot; Washington State<br>
+    Questions about this application: Diego@weeksfuneralhomes.com
+  </footer>
+</div>
+</body>
+</html>
